@@ -36,3 +36,9 @@ h1 {
         .navbar li a:hover:not(.menu) {
             background-color: #111;
         }
+        .navbar li a:hover:not(.menu) {
+            background-color: #111;
+        }
+            .navbar li.menu {
+                float: right;
+            }
