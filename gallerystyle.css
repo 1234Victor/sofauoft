@@ -1,0 +1,64 @@
+/* Style goes here. */
+
+/* General*/
+
+body {
+    font-family: Verdana, sans-serif;
+    
+}
+
+* {
+    box-sizing: border-box
+}
+
+/* Gallery */
+
+.row {
+    margin: 8px -16px;
+}
+
+
+.row,
+.row > .column {
+padding: 8px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    height:auto;
+}
+    .column a {
+        text-decoration: none;
+        color: black
+    }
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border: medium;
+    box-shadow: 5px 10px #888888;
+}
+.content:hover {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border: medium;
+    box-shadow: 5px 10px #333;
+}
+
+    .content img {
+        width: 100%;
+        height:auto;
+        padding:0;
+        border:double;
+
+        
+    }
+    
